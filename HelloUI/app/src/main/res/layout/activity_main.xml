@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Ketik nama di sini..."
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"/>
+
+    <Button
+        android:id="@+id/btnSapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAPA_SAYA"
+        android:fontFamily="monospace"
+        app:cornerRadius="0dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENUNGGU INPUT..."
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="LIGHT"
+        android:fontFamily="monospace"
+        app:cornerRadius="0dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="DARK"
+        android:fontFamily="monospace"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
