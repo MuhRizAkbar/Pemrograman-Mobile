@@ -1,29 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sejarah Android Singkat"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="Android dimulai pada tahun 2003 oleh Andy Rubin, Rich Miner, Nick Sears, dan Chris White. Google mengakuisisi Android Inc. pada tahun 2005. Sistem operasi ini berbasis kernel Linux dan dirancang untuk perangkat seluler layar sentuh.\n\nPerkembangan utama Android meliputi:\n- Astro &amp; Bender (2008): Versi komersial pertama pada perangkat HTC Dream.\n- Cupcake (1.5) hingga Pie (9.0): Era penamaan berdasarkan nama makanan manis sesuai urutan alfabet.\n- Android 10 hingga 15: Transisi ke penamaan angka untuk kesan yang lebih profesional dan global."
-        android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sejarah Singkat Android"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/btnNext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lihat Arsitektur &amp; Info Device" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android dimulai pada tahun 2003 oleh Andy Rubin, Rich Miner, Nick Sears, dan Chris White. Google mengakuisisi Android Inc. pada tahun 2005."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:lineSpacingExtra="4dp"/>
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem operasi ini berbasis kernel Linux dan dirancang untuk perangkat seluler layar sentuh."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perkembangan utama Android meliputi:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Astro &amp; Bender (2008): Versi komersial pertama pada perangkat HTC Dream."
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="6dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Cupcake (1.5) hingga Pie (9.0): Era penamaan berdasarkan nama makanan manis sesuai urutan alfabet."
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="6dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Android 10 hingga 15: Transisi ke penamaan angka untuk kesan yang lebih profesional dan global."
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Arsitektur &amp; Info Device" />
+
+    </LinearLayout>
+</ScrollView>
