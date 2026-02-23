@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvVersion" type="id" />
+    <item name="tvModel" type="id" />
+    <item name="tvBrand" type="id" />
+    <item name="tvKernel" type="id" />
+    <item name="tvBattery" type="id" />
+    <item name="tvNetwork" type="id" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Device Information:" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvAppLayer" android:text="Application" android:background="#BBDEFB" android:gravity="center" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvFrameworkLayer" android:text="Application Framework" android:background="#90CAF9" android:gravity="center" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvArtLayer" android:text="Android Runtime (ART)" android:background="#64B5F6" android:gravity="center" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvLibsLayer" android:text="Libraries" android:background="#42A5F5" android:gravity="center" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvKernelLayer" android:text="Linux Kernel" android:background="#2196F3" android:textColor="#FFFFFF" android:gravity="center" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+    <TextView android:id="@+id/tvVersion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvModel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvBrand" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvKernel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvBattery" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <TextView android:id="@+id/tvNetwork" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kembali ke Sejarah" />
+</LinearLayout>
